@@ -1,0 +1,311 @@
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+
+ /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+ *,*::before,*::after{box-sizing:boder-box;}
+img{
+    max-width:100%;
+    height:auto;
+    vertical-align:middle;
+}
+
+a{
+    text-decoration:none;
+    display:inline-block;
+    color:inherit;
+}
+body{
+    font-family:"Roboto","Noto Sans TC",sans-serif;
+    line-height: 1.5;
+}
+.container{
+    max-width: 1296px;
+    margin:0 auto;
+    padding:0 12px; 
+    text-align: center;
+    }
+.p-t-b{
+    padding: 80px 0;
+}
+.mb-12{
+    margin-bottom: 48px;
+}
+.mb-6{
+    margin-bottom: 24px;
+}
+.mb-4{
+    margin-bottom: 16px;
+}
+.primary{
+    color:#AA0601 ;
+}
+.sup-color{
+    color: #650300;
+}
+.d-flex{
+    display: flex;
+}
+.fs-i{
+    font-style:italic;
+}
+.fw-b{
+    font-weight: bold;
+}
+.fw-m{
+    font-weight: medium;
+}
+.fz-sm{
+    font-size: 14px;
+}
+.fz-5{
+    font-size: 20px;
+}
+.fz-6{
+    font-size: 24px;
+}
+.fz-9{
+    font-size: 36px;
+}
+.fz-12{
+    font-size: 48px;
+}
+.fz-16{
+    font-size: 64px;
+}
+.header .nav{
+    justify-content: space-between;
+}
+.header ul{
+    width: 42%;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .menu a{
+    color: white;
+    padding: 12px;
+    border-radius: 42px;
+}
+.header .menu a:hover{
+    color: #AA0601;
+    background: white;
+}
+.header img{
+    width: 80px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.bg-banner{
+    background: url(img/home-header.png)center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner .word{
+    padding-top: 296px;
+    padding-bottom: 296px;
+    text-align: right;
+}
+.banner a{
+    color:white;
+    padding: 6px 12px;
+    background: #AA0601;
+}
+.banner a:hover{
+    color: #AA0601;
+    background: white;
+}
+.intro h2{
+    margin-bottom: 36px;
+}
+.intro ul{
+    gap: 24px;
+}
+.intro li{
+    width: 24%;
+}
+.intro img{
+    width: 84px;
+    margin-bottom: 24px;
+}
+.intro h3{
+    margin-bottom: 8px;
+}
+.intro p{
+    text-align: left;
+}
+.t-shop ul{
+    gap: 24px;
+}
+.t-shop h2{
+    margin-bottom: 48px;
+}
+.t-shop img{
+    margin-bottom: 8px;
+}
+.b-shop h2{
+    margin-bottom: 48px;
+    color: white;
+}
+.b-shop p{
+    background: white;
+    padding: 8px 0;
+}
+.reply h2{
+    margin-bottom: 48px;
+}
+.reply ul{
+    gap: 24px;
+}
+.reply li{
+    box-shadow: 0px 2px 6px #00000029;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    opacity: 1;
+}
+.reply .word{
+    padding: 16px;
+    height: 205px;
+    text-align: left;
+    flex-direction: column;
+}
+.reply h3{
+    margin-bottom: 8px;
+}
+.date{
+    margin-top: auto;
+    font-size: 14px;
+    color: #707070;
+}
+.service ul {
+    text-align: left;
+    max-width: 49%;
+    margin: 0 auto;
+}
+.service .space{
+    width: 100%;
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    color: white;
+    background: #AA0601;
+    padding: 16px 176px;
+}
+.footer{
+    padding-top: 48px;
+    color: white;
+}
+.footer .top{
+    justify-content: space-between;
+}
+.footer .top img{
+    width: 48px;
+}
+.footer .menu{
+    width: 33%;
+    justify-content: space-between;
+}
+.footer .menu a:hover{
+    color: #AA0601;
+    background: white;
+}
+.footer .icon{
+    width: 16%;
+    justify-content: space-between;
+}
+.footer .icon img:hover{
+    background: gray;
+    border-radius: 42px;
+}
+.footer .center {
+    text-align: left;
+    border-bottom: 1px solid white;
+    padding-bottom: 32px;
+}
+.footer .center img{
+    margin-right: 20px;
+}
+.footer .bottom{
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .bottom ul{
+    width: 16%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+@media(max-width: 768px)
+{.container{max-width: 696px;}
+ .header ul{width: 70%;}
+ .bg-banner{
+    background: url(img/home-header-sm.png)center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .intro ul{
+    flex-wrap: wrap;
+ }
+ .intro li{
+    width: 48%;
+ }
+ .t-shop ul{
+    width: 50%;
+    margin: 0 auto;
+    flex-direction: column;
+ }
+ .b-shop ul{
+    flex-direction: column;
+    gap: 24px;
+ }
+ .reply ul{
+    flex-wrap: wrap;
+ }
+ .reply li{
+    width: 47%;
+ }
+ .service ul{
+    max-width: 80%;
+ }
+ .footer .menu{
+    width: 67%;
+ }
+ .footer .icon{
+    width: 22%;
+ }
+ .footer .bottom ul{
+    width: 20%;
+    font-size: 14px;
+ }
+}
+@media(max-width: 576px){
+    .container{max-width: 348px;}
+    .header .nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .header ul{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .header li{
+        width: 50%;
+        border: 1px solid white;
+        margin: 0 0 -2px -2px;
+        position: relative; 
+        z-index: 0;
+    }
+    .banner .word{
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    .banner .word p{
+        font-size: 16px;
+    }
+    .banner .word h1{
+        font-size: 24px;
+    }
+}
