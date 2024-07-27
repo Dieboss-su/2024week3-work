@@ -1,0 +1,45 @@
+
+.store-taipei .col{
+    width: 40%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.store .map{
+    width: 58%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+@media (max-width:992px){
+    .store-taipei .container{
+        max-width: 720px;
+    }
+    .store-taipei .col{
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .col img{
+        width: 50%;
+        margin-right: 24px;
+    }
+    .store-taipei .card{
+        display: flex;
+    }
+    .store-taipei .map{
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+    .store-taipei .container{
+        max-width: 372px;
+    }
+    .col img{
+        width: 100%;
+        margin-right: 0;
+    }
+    .store-taipei .col{
+        margin-bottom: 0;
+    }
+    .store-taipei .card{
+        display: inline-block;
+    }
+}

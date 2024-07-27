@@ -1,0 +1,66 @@
+
+.optical-banner{
+    height: 296px;
+    background: url(/assets/images/product-header-1.png),url(/assets/images/product-header-2.png);
+    background-position: left,right;
+    background-size: 50% 100%,50% 100%;
+    background-repeat: no-repeat,no-repeat;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+.style{gap: 8px;}
+.style a{
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+}
+.st-1{
+    background: #5F3E2D;
+}
+.st-2{
+    background: #B75929;
+}
+.page a:hover{
+    color: #FFFFFF;
+    background: #000000;
+}
+.page li{
+    border: 1px solid #555555 ;
+}
+.page-p{
+    font-size: 19px;
+}
+.page-n{
+    font-size: 18px;
+}
+@media (max-width:992px){
+    .optical-banner{
+    height: 296px;
+    background: url(/assets/images/product-header-sm-1.png),url(/assets/images/product-header-sm-2.png);
+    background-position: left,right;
+    background-size: 50% 100%,50% 100%;
+    background-repeat: no-repeat,no-repeat;
+    }
+    .optical-shop .col-4{
+        width: 45%;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: 372px;
+    }
+    .optical-shop h1,h2{
+        font-size: 24px;
+    }
+    .optical-shop .col-4{
+        width: 100%;
+    }
+    .page-p{
+        font-size: 16px;
+    }
+    .page-n{
+        font-size: 16px;
+    }
+}

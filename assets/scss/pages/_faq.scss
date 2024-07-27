@@ -1,0 +1,37 @@
+.faq .container{
+    text-align: left;
+}
+.faq .p-t-b{
+    padding-top: 96px;
+    padding-bottom: 80px;
+}
+.faq h1{
+    padding-left: 16px;
+    border-left: 8px solid #9F1213;
+}
+.faq .col{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.faq .row{
+    gap: 32px;
+}
+@media (max-width:992px){
+    .faq .p-t-b{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+@media (max-width:767px){
+    .faq .p-t-b{
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+    .faq .row{
+        gap: 24px;
+    }
+    .faq .fz-12{
+        font-size: 24px;
+    }
+}

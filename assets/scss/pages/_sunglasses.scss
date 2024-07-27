@@ -1,0 +1,37 @@
+
+.sunglasses-banner{
+    height: 296px;
+    background: url(/assets/images/product-header-3.png),url(/assets/images/product-header-4.png);
+    background-position: left,right;
+    background-size: 50% 100%,50% 100%;
+    background-repeat: no-repeat,no-repeat;
+}
+@media (max-width:992px){
+    .sunglasses-banner{
+    height: 296px;
+    background: url(/assets/images/product-header-sm-3.png),url(/assets/images/product-header-sm-4.png);
+    background-position: left,right;
+    background-size: 50% 100%,50% 100%;
+    background-repeat: no-repeat,no-repeat;
+    }
+    .sunglasses-shop .col-3{
+        width: 45%;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: 372px;
+    }
+    .sunglasses-shop h1,h2{
+        font-size: 24px;
+    }
+    .sunglasses-shop .col-3{
+        width: 100%;
+    }
+    .page-p{
+        font-size: 16px;
+    }
+    .page-n{
+        font-size: 16px;
+    }
+}

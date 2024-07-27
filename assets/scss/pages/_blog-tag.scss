@@ -1,0 +1,129 @@
+.blog-tag p{
+    color: #555555;
+}
+.blog-tag .container{
+    text-align: left;
+}
+.blog-tag .p-t-b{
+    padding-top: 24px;
+}
+.tag li{
+    margin-right: 16px;
+}
+.link{
+    border-bottom: 1px solid #707070;
+    padding-bottom: 16px;
+    span{
+        margin-right: 16px;
+    }
+    img{
+        margin-right: 16px;
+        width: 24px;
+    }
+}
+.blog-tag .page{
+    span{
+        display: block;
+    }
+    a{
+        gap: 12px;
+    }
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 24px;
+    width: 100%;
+    justify-content: space-between;
+}
+.p2{
+    display: none;
+}
+.right-tag{
+    span{
+        font-size: 38px;
+        display: block;
+    }
+    h3{
+        margin-bottom: 4px;
+        align-items: center;
+    }
+    .br1{
+        display: none;
+    }
+}
+@media (max-width:992px){
+    .blog-tag .p-t-b{
+        padding-top: 16px;
+    }
+    .p1{
+        display: none;
+    }
+    .p2{
+        display: block;
+    }
+    .blog-tag .card img{
+        margin-bottom: 16px;
+    }
+    .blog-tag .card {
+        margin-bottom: 24px;
+    }
+    .right-tag h3{
+        font-size: 16px;
+    }
+    .right-tag a{
+        font-size: 16px;
+    }
+    .right-tag span{
+        font-size: 19px;
+    }
+    .right-tag .br1{
+        display: inline;
+    }
+    .right-tag .mr-6{
+        margin-right: 16px;
+    }
+}
+@media (max-width:767px){
+    .blog-tag .p-t-b{
+        padding-top: 16px;
+        padding-bottom: 64px;
+    }
+    .right-tag{
+        display: none;
+    }
+    .left-word{
+        width: 100%;
+        .tag ul{
+            font-size: 16px;
+        }
+        h1{
+            font-size: 24px;
+        }
+        h2{
+            font-size: 16px;
+        }
+    }
+    .blog-tag-nav{
+        display: block;
+        ul{
+            width: 100%;
+            justify-content: space-between;
+        }
+        span{
+            display: none;
+        }
+        .fz-5{
+            font-size: 16px;
+        }
+        a{
+            padding: 12px 0;
+        }
+    }
+    .blog-tag{
+        .link{
+            display: none;
+        }
+        .page{
+            display: none;
+        }
+    }
+}

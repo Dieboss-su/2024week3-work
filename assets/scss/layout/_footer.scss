@@ -1,4 +1,94 @@
+.footer-container{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
 .footer{
-  background: #69F0AE;
-  font-size: 64px;
+  padding-top: 48px;
+  color: white;
+}
+.footer .top{
+  justify-content: space-between;
+}
+.footer .icon img{
+  width: 48px;
+}
+.footer .menu{
+  justify-content: space-between;
+}
+.footer .menu a:hover{
+  color: #AA0601;
+  background: white;
+}
+.footer .icon{
+  width: 16%;
+  justify-content: space-between;
+}
+.footer .icon img:hover{
+  background: gray;
+  border-radius: 42px;
+}
+.footer .left-word {
+  padding-bottom: 32px;
+}
+.footer .left-word img{
+  margin-right: 20px;
+}
+.footer .bottom{
+  border-top: 1px solid white;
+  padding: 32px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .bottom ul{
+  width: 16%;
+  justify-content: space-between;
+  font-size: 14px;
+}
+@media(max-width:992px){
+  .footer .left-word{
+    width: 67%;
+  }
+  .footer .icon{
+    width: 22%;
+  }
+  .footer .icon img{
+    width: 40px;
+  }
+  .footer .bottom ul{
+    width: 20%;
+    font-size: 14px;
+  }
+}
+@media(max-width:767px){
+  .footer-container{
+    max-width: 348px;
+  }
+  .footer .menu{
+    display: none;
+  }
+  .footer .left-word img{
+    width: 18px;
+  }
+  .footer .icon img{
+    width: 24px;
+  }
+  .footer a{
+    font-size: 16px;
+  }
+  .footer .bottom{
+    font-size: 16px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .footer .bottom ul{
+    width: 100%;
+    display: block;
+  }
+  .footer .bottom li{
+    margin-bottom: 8px;
+  }
+  .footer .icon{
+    width: 25%;
+  }
 }

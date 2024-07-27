@@ -1,0 +1,85 @@
+.store .container{
+    text-align: left;
+}
+.store .p-t-b{
+    padding-top: 96px;
+    padding-bottom: 80px;
+}
+.store h1{
+    padding-left: 16px;
+    border-left: 8px solid #9F1213;
+}
+.store label{
+    margin-right: 16px;
+}
+.store select{
+    border: 1px solid #CED4DA;
+    width: 304px;
+    height: 38px;
+}
+.store h3{
+    padding: 8px 24px;
+    border: 1px solid #00000020;
+}
+.store ul{
+    padding: 16px 24px;
+    border: 1px solid #00000020;
+}
+.store span{
+    margin-right: 10px;
+}
+.store .infor{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    background: #000;
+    border: 1px solid #00000020;
+}
+.store .infor a{
+    padding: 16px;
+}
+.store .infor a:hover{
+    color: gray;
+}
+@media (max-width:992px){
+    .store .col-3{
+        width: 45%;
+    }
+    .store .p-t-b{
+        padding-top: 80px;
+    }
+}
+@media(max-width:767px){
+    .container{
+        max-width: 372px;
+    }
+    .store .p-t-b{
+        padding-top: 40px;
+        padding-bottom: 64px;
+    }
+    .store h1{
+        margin-bottom: 24px;
+    }
+    .store form{
+        margin-bottom: 24px;
+    }
+    .store .row{
+        gap: 24px;
+    }
+    .store .col-3{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .store .fz-12{
+        font-size: 24px;
+    }
+    .store .fz-6{
+        font-size: 16px;
+    }
+    .store select{
+        max-width: 78%;
+    }
+    .store label{
+        margin-right: 8px;
+    }
+}
